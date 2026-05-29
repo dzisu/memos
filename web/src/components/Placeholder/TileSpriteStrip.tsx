@@ -36,6 +36,7 @@ const TileSpriteStrip = ({ sprite, scale = DEFAULT_SCALE, className, testId }: T
       `}</style>
       <div
         aria-hidden="true"
+        dir="ltr"
         data-testid={testId}
         className={cn("relative shrink-0 overflow-hidden", className)}
         style={{ width: displayFrameWidth, height: displayStripHeight, overflow: "hidden" }}
